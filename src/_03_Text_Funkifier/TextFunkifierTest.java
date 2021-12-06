@@ -44,6 +44,7 @@ public class TextFunkifierTest {
 
     @Test
     public void testCustomString() {
-
+    	NoSpaces ns = new NoSpaces ("No More Spaces Please");
+    	assertEquals ("NoMoreSpacesPlease", ns.funkifyText());
     }
 }
